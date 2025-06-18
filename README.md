@@ -48,3 +48,16 @@ A utility script containing the ```calculate_angle``` function, used by ```SideA
 ```counter.py```
 This script demonstrates a simple repetition counter using the PoseModule. It tracks a specific angle (e.g., right arm) and counts reps based on angle thresholds.
 To run:
+
+```bash 
+python counter.py
+```
+**(Note: Uses webcam by default ```cap = cv2.VideoCapture(0)```.)**
+
+```new.py```
+A basic script for real-time pose detection using MediaPipe with a webcam feed.
+To run:
+```bash
+python new.py
+```
+
