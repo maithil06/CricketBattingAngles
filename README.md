@@ -1,4 +1,4 @@
-"# Cricket Batting Angles Analysis 🏏
+# Cricket Batting Angles Analysis 🏏
 
 This repository contains a collection of Python scripts designed for analyzing cricket batting angles using pose estimation, primarily leveraging MediaPipe. It includes modules for pose detection, angle calculation, data logging, and even object detection with YOLO.
 
