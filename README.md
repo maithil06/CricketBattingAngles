@@ -79,6 +79,7 @@ python ii.py
 Contains the score function which uses fastdtw to calculate the dynamic time warping distance between two sequences. This is useful for comparing the similarity of movement patterns. This file is imported by ```SideAngleViewTest.py```.
 
 ## File Structure 📁
+```bash
 .
 ├── PoseModule.py               # Core module for pose detection and angle calculations
 ├── SideAngleViewTest.py        # Script for testing batting angle analysis, saves data
@@ -89,6 +90,7 @@ Contains the score function which uses fastdtw to calculate the dynamic time war
 ├── ii.py                       # YOLO object detection on video, saves results
 ├── new.py                      # Basic real-time pose detection with webcam
 └── scoring.py                  # Implements FastDTW for movement scoring
+```
 
 ``` Dependencies
 opencv-python
