@@ -80,7 +80,6 @@ Contains the score function which uses fastdtw to calculate the dynamic time war
 
 ## File Structure 📁
 ```bash
-.
 ├── PoseModule.py               # Core module for pose detection and angle calculations
 ├── SideAngleViewTest.py        # Script for testing batting angle analysis, saves data
 ├── SideAngleViewTrain.py       # Script for training batting angle analysis, saves data
@@ -92,7 +91,8 @@ Contains the score function which uses fastdtw to calculate the dynamic time war
 └── scoring.py                  # Implements FastDTW for movement scoring
 ```
 
-``` Dependencies
+## Dependencies📦
+``` 
 opencv-python
 mediapipe
 numpy
