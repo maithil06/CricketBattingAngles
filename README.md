@@ -30,6 +30,21 @@ python PoseModule.py
 ```
 **(Note: Requires a video file named 1.mp4 in a PoseVideos folder, or modify ```bash cap = cv2.VideoCapture('PoseVideos/1.mp4')``` to your video path or 0 for webcam.)
 
-SideAngleViewTrain.py and SideAngleViewTest.py
+```SideAngleViewTrain.py``` and ```SideAngleViewTest.py```
 These scripts are designed for analyzing cricket batting angles from a side view. They process a video, detect poses, calculate various joint angles, and log this data to a CSV file (traindata.csv) for training or testing purposes.
+To run:
+
+```bash
+python SideAngleViewTrain.py
+# or
+python SideAngleViewTest.py
+```
+
+**(Note: Both scripts process virat - Made with Clipchamp.mp4. Ensure this video file is in the same directory or update the path ```bash cap = cv2.VideoCapture('virat - Made with Clipchamp.mp4'```).)**
+
+```counters.py```
+A utility script containing the ```calculate_angle``` function, used by ```SideAngleViewTrain.py```, ```SideAngleViewTest.py```, and ```PoseModule.py```. This file is imported by other scripts.
+
+```counter.py```
+This script demonstrates a simple repetition counter using the PoseModule. It tracks a specific angle (e.g., right arm) and counts reps based on angle thresholds.
 To run:
