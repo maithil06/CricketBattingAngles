@@ -60,4 +60,40 @@ To run:
 ```bash
 python new.py
 ```
+```anta.py```
+This script uses a pre-trained YOLOv8nano model (yolov8n.pt) to perform real-time object detection from a webcam feed.
+To run:
+```bash
+python anta.py
+```
+**(Note: Requires the yolov8n.pt model file to be present.)**
+```ii.py ```
+This script uses a custom-trained YOLO model (last.pt) to perform object detection on a video file (videoplayback (2).mp4) and saves the results.
+To run:
+```bash 
+python ii.py
+```
+**(Note: Requires the ```last.pt``` model file and ```videoplayback (2).mp4``` video file to be present.)**
 
+```scoring.py```
+Contains the score function which uses fastdtw to calculate the dynamic time warping distance between two sequences. This is useful for comparing the similarity of movement patterns. This file is imported by ```SideAngleViewTest.py```.
+
+## File Structure
+.
+├── PoseModule.py               # Core module for pose detection and angle calculations
+├── SideAngleViewTest.py        # Script for testing batting angle analysis, saves data
+├── SideAngleViewTrain.py       # Script for training batting angle analysis, saves data
+├── anta.py                     # YOLO object detection using webcam
+├── counter.py                  # Pose-based repetition counter
+├── counters.py                 # Utility for angle calculation
+├── ii.py                       # YOLO object detection on video, saves results
+├── new.py                      # Basic real-time pose detection with webcam
+└── scoring.py                  # Implements FastDTW for movement scoring
+Dependencies
+opencv-python
+mediapipe
+numpy
+pandas
+ultralytics
+scipy
+fastdtw
