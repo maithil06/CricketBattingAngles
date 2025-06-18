@@ -89,7 +89,8 @@ Contains the score function which uses fastdtw to calculate the dynamic time war
 ├── ii.py                       # YOLO object detection on video, saves results
 ├── new.py                      # Basic real-time pose detection with webcam
 └── scoring.py                  # Implements FastDTW for movement scoring
-Dependencies
+
+``` Dependencies
 opencv-python
 mediapipe
 numpy
@@ -97,3 +98,4 @@ pandas
 ultralytics
 scipy
 fastdtw
+```
