@@ -2,6 +2,8 @@
 
 This repository contains a collection of Python scripts designed for analyzing cricket batting angles using pose estimation, primarily leveraging MediaPipe. It includes modules for pose detection, angle calculation, data logging, and even object detection with YOLO.
 
+https://github.com/user-attachments/assets/2fddecf8-1fb1-4e53-b8b7-3fce33c3b09f
+
 ## Features ✨
 
 * **Real-time Pose Detection:** Utilizes MediaPipe for accurate human pose estimation from video streams or webcam. 🧍‍♂️
